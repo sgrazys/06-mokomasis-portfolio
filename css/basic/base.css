@@ -16,9 +16,32 @@ body {
 }
 
 .section-title {
+    text-align: center;
 }
 
-.section-description {
+.section-title > .title {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    position: relative;
+}
+
+.section-title > .title::after {
+    content: '';
+    display: block;
+    width: 67px;
+    height: 20px;
+    background-image: url(../../img/section-title-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+}
+.section-title > .description {
+    color: #999;
 }
 
 p {
