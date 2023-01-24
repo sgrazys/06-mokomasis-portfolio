@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+body * {
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+.section-title {
+}
+
+.section-description {
+}
+
+p {
+}
+
+p > a {
+}

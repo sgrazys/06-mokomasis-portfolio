@@ -2,6 +2,7 @@
     "name": "06-mokomasis-portfolio",
     "version": "1.0.0",
     "description": "Learning portfolio project",
+    "type": "module",
     "main": "index.js",
     "scripts": {
         "dev": "dead-server --port=6006 --host=localhost",
