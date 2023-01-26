@@ -1,5 +1,5 @@
 // IMPORT
-import { hobbies } from '../components/hobbies/hobbies.js';
+import { tiles } from '../components/tiles/tiles.js';
 import { hobbiesData } from '../data/hobbiesData.js';
 // EXECUTION
 
@@ -10,7 +10,7 @@ import { hobbiesData } from '../data/hobbiesData.js';
 /* about end */
 
 /* hobbies start */
-hobbies(hobbiesData);
+tiles('hobbies_block', hobbiesData);
 /* hobbies end */
 
 /* service start */
