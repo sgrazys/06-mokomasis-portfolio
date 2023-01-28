@@ -46,7 +46,7 @@
 .gallery .item > .visual {
     width: 100%;
     font-size: inherit;
-    height: calc(330px - (--fs) * 8.5);
+    height: calc(330px - var(--fs) * 8.5);
     position: relative;
 }
 .gallery .visual > .img {
