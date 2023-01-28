@@ -3,12 +3,25 @@
     gap: 30px;
 }
 .gallery > .filter {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 .gallery > .filter > .option {
+    padding: 0.6em 1em;
+    font-size: 14px;
+    line-height: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.4em;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.5s;
 }
-.gallery > .filter > .option.active {
-}
+.gallery > .filter > .option.active,
 .gallery > .filter > .option:hover {
+    background-color: var(--main-color);
+    color: #fff;
 }
 .gallery > .content {
     display: grid;
